@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <search_settings>
+    <pretty_name>Food Stamps</pretty_name>
+    <search_command>{[DSS - Case Files]:[Program Type]="Food Stamps",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="Central",[County Case Nbr]=~CASENUMBER~}</search_command>
+  </search_settings>
+  <search_settings>
+    <pretty_name>Family and Children Medicaid</pretty_name>
+    <search_command>{[DSS - Case Files]:[Program Type]="Family and Children Medicaid",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="Central",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="Medicaid Central",[County Case Nbr]=~CASENUMBER~}</search_command>
+  </search_settings>
+  <search_settings>
+    <pretty_name>Adult Medicaid</pretty_name>
+    <search_command>{[DSS - Case Files]:[Program Type]="Adult Medicaid",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="Central",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="Medicaid Central",[County Case Nbr]=~CASENUMBER~}</search_command>
+  </search_settings>
+  <search_settings>
+    <pretty_name>Master Client</pretty_name>
+    <search_command>{[DSS - Case Files]:[Program Type]="Master Client",[County Case Nbr]=~CASENUMBER~}</search_command>
+  </search_settings>
+  <search_settings>
+    <pretty_name>Work First - FA</pretty_name>
+    <search_command>{[DSS - Case Files]:[Program Type]="WF-FA",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="Central",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="WF-FA Central",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="WF-ES",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="WF-ES Central",[County Case Nbr]=~CASENUMBER~}</search_command>
+  </search_settings>
+  <search_settings>
+    <pretty_name>Work First - ES</pretty_name>
+    <search_command>{[DSS - Case Files]:[Program Type]="WF-200",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="Central",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="WF-FA Central",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="WF-ES",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="WF-ES Central",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Form Description]="SER705_WFES Child Care Referral",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Form Description]="MR2_MR2",[County Case Nbr]=~CASENUMBER~}</search_command>
+  </search_settings>
+  <search_settings>
+    <pretty_name>Emergency Assistance</pretty_name>
+    <search_command>{[DSS - Case Files]:[Program Type]="Crisis Intervention",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="Emergency Assistance",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="Central",[County Case Nbr]=~CASENUMBER~}</search_command>
+  </search_settings>
+  <search_settings>
+    <pretty_name>Child Care</pretty_name>
+    <search_command>{[DSS - Case Files]:[Program Type]="Child Care",[County Case Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Program Type]="Central",[County Case Nbr]=~CASENUMBER~}</search_command>
+  </search_settings>
+  <search_settings>
+    <pretty_name>Child Care Provider</pretty_name>
+    <search_command>{[DSS - Case Files]:[Program Type]="Child Care Provider",[Provider Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Form Description]="IM456_Absence Notice",[Provider Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Form Description]="DCD0446_Child Care Voucher",[Provider Nbr]=~CASENUMBER~}|{[DSS - Case Files]:[Form Description]="DCD0450_Action Notice",[Provider Nbr]=~CASENUMBER~}</search_command>
+  </search_settings>
+</NewDataSet>
