@@ -1,9 +1,3 @@
-import tarfile
-import time
-import os
-import shutil
-import xml.etree.ElementTree as ET
-
 ## Script for Exporting Briefcase contents to a text file
 ## Copies the Briefcase as a tar file
 ## Extracts The File "toc.xml" from the tar file (toc = table of contents)
@@ -11,6 +5,12 @@ import xml.etree.ElementTree as ET
 ## Counts each parsed line and revisits the text file
 ## Writes number of line as final line
 
+
+import tarfile
+import time
+import os
+import shutil
+import xml.etree.ElementTree as ET
 
 if __name__ == '__main__':
     files = os.listdir('.')
@@ -42,4 +42,5 @@ if __name__ == '__main__':
             with open(txtFileName, 'a') as txtFile:
                 txtFile.write('Total Number Of Files: ' + str(totalCount) )
             os.chdir('..')
+            
             
