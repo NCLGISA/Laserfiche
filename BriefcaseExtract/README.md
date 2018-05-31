@@ -12,6 +12,6 @@ What the script does is this, in order.
 2. Makes a directory named as the briefcase
 3. Makes a copy of the briefcase, in tarball format.
 4. Moves that tarball file to the directory, and extracts "toc.xml".
-5. XML parser parses "toc.xml" and extracts all file names and writes the filenames to a directory.
+5. XML parser parses "toc.xml" and extracts all file names and writes the filenames to a txt file.
 6. While parsing, it runs a counter of files.
 7. Then revisits the txt file and writes the number of files in that txt file.
