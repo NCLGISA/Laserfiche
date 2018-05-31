@@ -2,7 +2,7 @@
 
 | Developer|Language|
 | -------------|:----:
-| Mark McIntyre| Python|
+| Mark McIntyre| Python 3|
 
 Our Tax department sends our Abstracts to a scanning service every year. The scanning service then sends the files back in the form of Laserfiche Briefcases. The Tax Department wanted a way to see the files IN the briefcase BEFORE they imported the Briefcases into Laserfiche(Audit). After researching, I found that Briefcases are "glorified" tar files. Inside the tar files is a file called "toc.xml". "toc.xml" contains all file information of files inside the briefcase.
 
